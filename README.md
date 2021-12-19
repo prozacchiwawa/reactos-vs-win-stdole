@@ -1,4 +1,4 @@
-This is a comparison of the reatos stdole*.tlb vs the ones in windows 10.
+This is a comparison of the reactos stdole*.tlb vs the ones in windows 10.
 
 Look in stdole2.diff and stdole32.diff to see the differences.
 
