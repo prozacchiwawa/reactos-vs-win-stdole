@@ -1,0 +1,59 @@
+﻿___[MOD] C:\Users\arty\stdole32reactos.dll
+   |      M A N I F E S T
+   |___[NSP] stdole32reactos
+   |   |___[VCL] stdole32reactos.DISPPARAMS
+   |   |   |     .class value public sequential ansi sealed beforefieldinit 
+   |   |   |      extends [mscorlib]System.ValueType 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComConversionLossAttribute::.ctor() = ( 01 00 00 00 )  ...
+   |   |   |___[FLD] cArgs : public uint32
+   |   |   |___[FLD] cNamedArgs : public uint32
+   |   |   |___[FLD] rgdispidNamedArgs : public native int
+   |   |   |___[FLD] rgvarg : public native int
+   |   |
+   |   |___[VCL] stdole32reactos.EXCEPINFO
+   |   |   |     .class value public sequential ansi sealed beforefieldinit 
+   |   |   |      extends [mscorlib]System.ValueType 
+   |   |   |___[FLD] bstrDescription : public  marshal( bstr) string
+   |   |   |___[FLD] bstrHelpFile : public  marshal( bstr) string
+   |   |   |___[FLD] bstrSource : public  marshal( bstr) string
+   |   |   |___[FLD] dwHelpContext : public uint32
+   |   |   |___[FLD] pfnDeferredFillIn : public native int
+   |   |   |___[FLD] pvReserved : public native int
+   |   |   |___[FLD] scode : public  marshal( error) int32
+   |   |   |___[FLD] wCode : public uint16
+   |   |   |___[FLD] wReserved : public uint16
+   |   |
+   |   |___[VCL] stdole32reactos.GUID
+   |   |   |     .class value public sequential ansi sealed beforefieldinit 
+   |   |   |      extends [mscorlib]System.ValueType 
+   |   |   |___[FLD] Data1 : public uint32
+   |   |   |___[FLD] Data2 : public uint16
+   |   |   |___[FLD] Data3 : public uint16
+   |   |   |___[FLD] Data4 : public  marshal( fixed array [8]) uint8[]
+   |   |
+   |   |___[INT] stdole32reactos.IDispatch
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 32 30 34 30 30 2D 30 30 30 30   // ..$00020400-0000 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComConversionLossAttribute::.ctor() = ( 01 00 00 00 )  ...
+   |   |   |___[MET] GetIDsOfNames : void(valuetype [mscorlib]System.Guid&,native int,uint32,uint32,int32&)
+   |   |   |___[MET] GetTypeInfo : void(uint32,uint32,native int&)
+   |   |   |___[MET] GetTypeInfoCount : void(uint32&)
+   |   |   |___[MET] Invoke : void(int32,valuetype [mscorlib]System.Guid&,uint32,uint16,valuetype stdole32reactos.DISPPARAMS&,object&,valuetype stdole32reactos.EXCEPINFO&,uint32&)
+   |   |
+   |   |___[INT] stdole32reactos.IEnumVARIANT
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 32 30 34 30 34 2D 30 30 30 30   // ..$00020404-0000 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |___[MET] Clone : void(class [mscorlib]System.Collections.IEnumerator&)
+   |   |   |___[MET] Next : void(uint32,object&,uint32&)
+   |   |   |___[MET] Reset : void()
+   |   |   |___[MET] Skip : void(uint32)
+   |   |
+   |   |___[INT] stdole32reactos.IUnknown
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 30 30 30 30 30 2D 30 30 30 30   // ..$00000000-0000 ...
+   |   |
+   |
+

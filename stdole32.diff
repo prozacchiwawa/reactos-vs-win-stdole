@@ -1,0 +1,61 @@
+--- stdole32win.txt	2021-12-18 16:25:16.107259900 -0800
++++ stdole32reactos.txt	2021-12-18 16:25:49.044336300 -0800
+@@ -1,7 +1,7 @@
+-﻿___[MOD] C:\Users\arty\stdole32win.dll
++﻿___[MOD] C:\Users\arty\stdole32reactos.dll
+    |      M A N I F E S T
+-   |___[NSP] stdole32win
+-   |   |___[VCL] stdole32win.DISPPARAMS
++   |___[NSP] stdole32reactos
++   |   |___[VCL] stdole32reactos.DISPPARAMS
+    |   |   |     .class value public sequential ansi sealed beforefieldinit 
+    |   |   |      extends [mscorlib]System.ValueType 
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComConversionLossAttribute::.ctor() = ( 01 00 00 00 )  ...
+@@ -10,7 +10,7 @@
+    |   |   |___[FLD] rgdispidNamedArgs : public native int
+    |   |   |___[FLD] rgvarg : public native int
+    |   |
+-   |   |___[VCL] stdole32win.EXCEPINFO
++   |   |___[VCL] stdole32reactos.EXCEPINFO
+    |   |   |     .class value public sequential ansi sealed beforefieldinit 
+    |   |   |      extends [mscorlib]System.ValueType 
+    |   |   |___[FLD] bstrDescription : public  marshal( bstr) string
+@@ -23,7 +23,7 @@
+    |   |   |___[FLD] wCode : public uint16
+    |   |   |___[FLD] wReserved : public uint16
+    |   |
+-   |   |___[VCL] stdole32win.GUID
++   |   |___[VCL] stdole32reactos.GUID
+    |   |   |     .class value public sequential ansi sealed beforefieldinit 
+    |   |   |      extends [mscorlib]System.ValueType 
+    |   |   |___[FLD] Data1 : public uint32
+@@ -31,7 +31,7 @@
+    |   |   |___[FLD] Data3 : public uint16
+    |   |   |___[FLD] Data4 : public  marshal( fixed array [8]) uint8[]
+    |   |
+-   |   |___[INT] stdole32win.IDispatch
++   |   |___[INT] stdole32reactos.IDispatch
+    |   |   |     .class interface public abstract auto ansi import 
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 32 30 34 30 30 2D 30 30 30 30   // ..$00020400-0000 ...
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+@@ -39,9 +39,9 @@
+    |   |   |___[MET] GetIDsOfNames : void(valuetype [mscorlib]System.Guid&,native int,uint32,uint32,int32&)
+    |   |   |___[MET] GetTypeInfo : void(uint32,uint32,native int&)
+    |   |   |___[MET] GetTypeInfoCount : void(uint32&)
+-   |   |   |___[MET] Invoke : void(int32,valuetype [mscorlib]System.Guid&,uint32,uint16,valuetype stdole32win.DISPPARAMS&,object&,valuetype stdole32win.EXCEPINFO&,uint32&)
++   |   |   |___[MET] Invoke : void(int32,valuetype [mscorlib]System.Guid&,uint32,uint16,valuetype stdole32reactos.DISPPARAMS&,object&,valuetype stdole32reactos.EXCEPINFO&,uint32&)
+    |   |
+-   |   |___[INT] stdole32win.IEnumVARIANT
++   |   |___[INT] stdole32reactos.IEnumVARIANT
+    |   |   |     .class interface public abstract auto ansi import 
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 32 30 34 30 34 2D 30 30 30 30   // ..$00020404-0000 ...
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+@@ -50,7 +50,7 @@
+    |   |   |___[MET] Reset : void()
+    |   |   |___[MET] Skip : void(uint32)
+    |   |
+-   |   |___[INT] stdole32win.IUnknown
++   |   |___[INT] stdole32reactos.IUnknown
+    |   |   |     .class interface public abstract auto ansi import 
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+    |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 30 30 30 30 30 2D 30 30 30 30   // ..$00000000-0000 ...

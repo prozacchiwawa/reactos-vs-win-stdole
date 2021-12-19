@@ -1,0 +1,436 @@
+﻿___[MOD] C:\Users\arty\stdole2win.dll
+   |      M A N I F E S T
+   |___[NSP] stdole2win
+   |   |___[VCL] stdole2win.DISPPARAMS
+   |   |   |     .class value public sequential ansi sealed beforefieldinit 
+   |   |   |      extends [mscorlib]System.ValueType 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComConversionLossAttribute::.ctor() = ( 01 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 00 02 00 00 00 00 )  ...
+   |   |   |___[FLD] cArgs : public uint32
+   |   |   |___[FLD] cNamedArgs : public uint32
+   |   |   |___[FLD] rgdispidNamedArgs : public native int
+   |   |   |___[FLD] rgvarg : public native int
+   |   |
+   |   |___[VCL] stdole2win.EXCEPINFO
+   |   |   |     .class value public sequential ansi sealed beforefieldinit 
+   |   |   |      extends [mscorlib]System.ValueType 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 00 02 00 00 00 00 )  ...
+   |   |   |___[FLD] bstrDescription : public  marshal( bstr) string
+   |   |   |___[FLD] bstrHelpFile : public  marshal( bstr) string
+   |   |   |___[FLD] bstrSource : public  marshal( bstr) string
+   |   |   |___[FLD] dwHelpContext : public uint32
+   |   |   |___[FLD] pfnDeferredFillIn : public native int
+   |   |   |___[FLD] pvReserved : public native int
+   |   |   |___[FLD] scode : public  marshal( error) int32
+   |   |   |___[FLD] wCode : public uint16
+   |   |   |___[FLD] wReserved : public uint16
+   |   |
+   |   |___[INT] stdole2win.Font
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 42 45 46 36 45 30 30 33 2D 41 38 37 34   // ..$BEF6E003-A874 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 00 10 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = ( 01 00 04 4E 61 6D 65 00 00 )                      // ...Name.. ...
+   |   |   |___[MET] get_Bold : bool()
+   |   |   |___[MET] get_Charset : int16()
+   |   |   |___[MET] get_Italic : bool()
+   |   |   |___[MET] get_Name : string()
+   |   |   |___[MET] get_Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[MET] get_Strikethrough : bool()
+   |   |   |___[MET] get_Underline : bool()
+   |   |   |___[MET] get_Weight : int16()
+   |   |   |___[MET] set_Bold : void(bool)
+   |   |   |___[MET] set_Charset : void(int16)
+   |   |   |___[MET] set_Italic : void(bool)
+   |   |   |___[MET] set_Name : void(string)
+   |   |   |___[MET] set_Size : void(valuetype [mscorlib]System.Decimal)
+   |   |   |___[MET] set_Strikethrough : void(bool)
+   |   |   |___[MET] set_Underline : void(bool)
+   |   |   |___[MET] set_Weight : void(int16)
+   |   |   |___[PTY] Bold : bool()
+   |   |   |___[PTY] Charset : int16()
+   |   |   |___[PTY] Italic : bool()
+   |   |   |___[PTY] Name : string()
+   |   |   |___[PTY] Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[PTY] Strikethrough : bool()
+   |   |   |___[PTY] Underline : bool()
+   |   |   |___[PTY] Weight : int16()
+   |   |
+   |   |___[INT] stdole2win.FontEvents
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 10 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 34 45 46 36 31 30 30 41 2D 41 46 38 38   // ..$4EF6100A-AF88 ...
+   |   |   |___[MET] FontChanged : void(string)
+   |   |
+   |   |___[INT] stdole2win.FontEvents_Event
+   |   |   |     .class interface public abstract auto ansi 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComEventInterfaceAttribute::.ctor(class [mscorlib]System.Type, ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |___[MET] add_FontChanged : void(class stdole2win.FontEvents_FontChangedEventHandler)
+   |   |   |___[MET] remove_FontChanged : void(class stdole2win.FontEvents_FontChangedEventHandler)
+   |   |   |___[EVT] FontChanged : stdole2win.FontEvents_FontChangedEventHandler
+   |   |
+   |   |___[CLS] stdole2win.FontEvents_EventProvider
+   |   |   |     .class private auto ansi sealed 
+   |   |   |      implements stdole2win.FontEvents_Event 
+   |   |   |      implements [mscorlib]System.IDisposable 
+   |   |   |___[FLD] m_ConnectionPoint : private class [mscorlib]System.Runtime.InteropServices.ComTypes.IConnectionPoint
+   |   |   |___[FLD] m_aEventSinkHelpers : private class [mscorlib]System.Collections.ArrayList
+   |   |   |___[FLD] m_wkConnectionPointContainer : private class [mscorlib]System.WeakReference
+   |   |   |___[MET] .ctor : void(object)
+   |   |   |___[MET] Dispose : void()
+   |   |   |___[MET] Finalize : void()
+   |   |   |___[MET] Init : void()
+   |   |   |___[MET] add_FontChanged : void(class stdole2win.FontEvents_FontChangedEventHandler)
+   |   |   |___[MET] remove_FontChanged : void(class stdole2win.FontEvents_FontChangedEventHandler)
+   |   |
+   |   |___[CLS] stdole2win.FontEvents_FontChangedEventHandler
+   |   |   |     .class public auto ansi sealed 
+   |   |   |      extends [mscorlib]System.MulticastDelegate 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |___[MET] .ctor : void(object,native uint)
+   |   |   |___[MET] Invoke : void(string)
+   |   |
+   |   |___[CLS] stdole2win.FontEvents_SinkHelper
+   |   |   |     .class public auto ansi sealed 
+   |   |   |      implements stdole2win.FontEvents 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ClassInterfaceAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ClassInterfaceType) = ( 01 00 00 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |___[FLD] m_FontChangedDelegate : public class stdole2win.FontEvents_FontChangedEventHandler
+   |   |   |___[FLD] m_dwCookie : public int32
+   |   |   |___[MET] .ctor : void()
+   |   |   |___[MET] FontChanged : void(string)
+   |   |
+   |   |___[VCL] stdole2win.GUID
+   |   |   |     .class value public sequential ansi sealed beforefieldinit 
+   |   |   |      extends [mscorlib]System.ValueType 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |___[FLD] Data1 : public uint32
+   |   |   |___[FLD] Data2 : public uint16
+   |   |   |___[FLD] Data3 : public uint16
+   |   |   |___[FLD] Data4 : public  marshal( fixed array [8]) uint8[]
+   |   |
+   |   |___[INT] stdole2win.IDispatch
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComConversionLossAttribute::.ctor() = ( 01 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 00 02 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 32 30 34 30 30 2D 30 30 30 30   // ..$00020400-0000 ...
+   |   |   |___[MET] GetIDsOfNames : void(valuetype [mscorlib]System.Guid&,native int,uint32,uint32,int32&)
+   |   |   |___[MET] GetTypeInfo : void(uint32,uint32,native int&)
+   |   |   |___[MET] GetTypeInfoCount : void(uint32&)
+   |   |   |___[MET] Invoke : void(int32,valuetype [mscorlib]System.Guid&,uint32,uint16,valuetype stdole2win.DISPPARAMS&,object&,valuetype stdole2win.EXCEPINFO&,uint32&)
+   |   |
+   |   |___[INT] stdole2win.IEnumVARIANT
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 32 30 34 30 34 2D 30 30 30 30   // ..$00020404-0000 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |___[MET] Clone : void(class [mscorlib]System.Collections.IEnumerator&)
+   |   |   |___[MET] Next : void(uint32,object&,uint32&)
+   |   |   |___[MET] Reset : void()
+   |   |   |___[MET] Skip : void(uint32)
+   |   |
+   |   |___[INT] stdole2win.IFont
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 42 45 46 36 45 30 30 32 2D 41 38 37 34   // ..$BEF6E002-A874 ...
+   |   |   |___[MET] AddRefHfont : void(int32)
+   |   |   |___[MET] Clone : void(class stdole2win.IFont&)
+   |   |   |___[MET] IsEqual : void(class stdole2win.IFont)
+   |   |   |___[MET] ReleaseHfont : void(int32)
+   |   |   |___[MET] SetRatio : void(int32,int32)
+   |   |   |___[MET] get_Bold : bool()
+   |   |   |___[MET] get_Charset : int16()
+   |   |   |___[MET] get_Italic : bool()
+   |   |   |___[MET] get_Name : string()
+   |   |   |___[MET] get_Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[MET] get_Strikethrough : bool()
+   |   |   |___[MET] get_Underline : bool()
+   |   |   |___[MET] get_Weight : int16()
+   |   |   |___[MET] get_hFont : int32()
+   |   |   |___[MET] set_Bold : void(bool)
+   |   |   |___[MET] set_Charset : void(int16)
+   |   |   |___[MET] set_Italic : void(bool)
+   |   |   |___[MET] set_Name : void(string)
+   |   |   |___[MET] set_Size : void(valuetype [mscorlib]System.Decimal)
+   |   |   |___[MET] set_Strikethrough : void(bool)
+   |   |   |___[MET] set_Underline : void(bool)
+   |   |   |___[MET] set_Weight : void(int16)
+   |   |   |___[PTY] Bold : bool()
+   |   |   |___[PTY] Charset : int16()
+   |   |   |___[PTY] Italic : bool()
+   |   |   |___[PTY] Name : string()
+   |   |   |___[PTY] Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[PTY] Strikethrough : bool()
+   |   |   |___[PTY] Underline : bool()
+   |   |   |___[PTY] Weight : int16()
+   |   |   |___[PTY] hFont : int32()
+   |   |
+   |   |___[INT] stdole2win.IFontDisp
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = ( 01 00 04 4E 61 6D 65 00 00 )                      // ...Name.. ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 42 45 46 36 45 30 30 33 2D 41 38 37 34   // ..$BEF6E003-A874 ...
+   |   |   |___[MET] get_Bold : bool()
+   |   |   |___[MET] get_Charset : int16()
+   |   |   |___[MET] get_Italic : bool()
+   |   |   |___[MET] get_Name : string()
+   |   |   |___[MET] get_Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[MET] get_Strikethrough : bool()
+   |   |   |___[MET] get_Underline : bool()
+   |   |   |___[MET] get_Weight : int16()
+   |   |   |___[MET] set_Bold : void(bool)
+   |   |   |___[MET] set_Charset : void(int16)
+   |   |   |___[MET] set_Italic : void(bool)
+   |   |   |___[MET] set_Name : void(string)
+   |   |   |___[MET] set_Size : void(valuetype [mscorlib]System.Decimal)
+   |   |   |___[MET] set_Strikethrough : void(bool)
+   |   |   |___[MET] set_Underline : void(bool)
+   |   |   |___[MET] set_Weight : void(int16)
+   |   |   |___[PTY] Bold : bool()
+   |   |   |___[PTY] Charset : int16()
+   |   |   |___[PTY] Italic : bool()
+   |   |   |___[PTY] Name : string()
+   |   |   |___[PTY] Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[PTY] Strikethrough : bool()
+   |   |   |___[PTY] Underline : bool()
+   |   |   |___[PTY] Weight : int16()
+   |   |
+   |   |___[INT] stdole2win.IFontEventsDisp
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 34 45 46 36 31 30 30 41 2D 41 46 38 38   // ..$4EF6100A-AF88 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |___[MET] FontChanged : void(string)
+   |   |
+   |   |___[INT] stdole2win.IPicture
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 37 42 46 38 30 39 38 30 2D 42 46 33 32   // ..$7BF80980-BF32 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |___[MET] PictureChanged : void()
+   |   |   |___[MET] Render : void(int32,int32,int32,int32,int32,int32,int32,int32,int32,native int)
+   |   |   |___[MET] SaveAsFile : void(native int,bool,int32&)
+   |   |   |___[MET] SelectPicture : void(int32,int32&,int32&)
+   |   |   |___[MET] SetHdc : void(int32)
+   |   |   |___[MET] get_Attributes : int32()
+   |   |   |___[MET] get_CurDC : int32()
+   |   |   |___[MET] get_Handle : int32()
+   |   |   |___[MET] get_Height : int32()
+   |   |   |___[MET] get_KeepOriginalFormat : bool()
+   |   |   |___[MET] get_Type : int16()
+   |   |   |___[MET] get_Width : int32()
+   |   |   |___[MET] get_hPal : int32()
+   |   |   |___[MET] set_KeepOriginalFormat : void(bool)
+   |   |   |___[MET] set_hPal : void(int32)
+   |   |   |___[PTY] Attributes : int32()
+   |   |   |___[PTY] CurDC : int32()
+   |   |   |___[PTY] Handle : int32()
+   |   |   |___[PTY] Height : int32()
+   |   |   |___[PTY] KeepOriginalFormat : bool()
+   |   |   |___[PTY] Type : int16()
+   |   |   |___[PTY] Width : int32()
+   |   |   |___[PTY] hPal : int32()
+   |   |
+   |   |___[INT] stdole2win.IPictureDisp
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 37 42 46 38 30 39 38 31 2D 42 46 33 32   // ..$7BF80981-BF32 ...
+   |   |   |     .custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = ( 01 00 06 48 61 6E 64 6C 65 00 00 )                // ...Handle.. ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |___[MET] Render : void(int32,int32,int32,int32,int32,int32,int32,int32,int32,native int)
+   |   |   |___[MET] get_Handle : int32()
+   |   |   |___[MET] get_Height : int32()
+   |   |   |___[MET] get_Type : int16()
+   |   |   |___[MET] get_Width : int32()
+   |   |   |___[MET] get_hPal : int32()
+   |   |   |___[MET] set_hPal : void(int32)
+   |   |   |___[PTY] Handle : int32()
+   |   |   |___[PTY] Height : int32()
+   |   |   |___[PTY] Type : int16()
+   |   |   |___[PTY] Width : int32()
+   |   |   |___[PTY] hPal : int32()
+   |   |
+   |   |___[INT] stdole2win.IUnknown
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 01 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 30 30 30 30 30 30 30 2D 30 30 30 30   // ..$00000000-0000 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 10 00 00 00 00 00 )  ...
+   |   |
+   |   |___[ENU] stdole2win.LoadPictureConstants
+   |   |   |     .class enum public auto ansi sealed 
+   |   |   |      extends [mscorlib]System.Enum 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 45 36 43 38 46 41 30 38 2D 42 44 39 46   // ..$E6C8FA08-BD9F ...
+   |   |   |___[STF] Color : public static literal valuetype stdole2win.LoadPictureConstants
+   |   |   |___[STF] Default : public static literal valuetype stdole2win.LoadPictureConstants
+   |   |   |___[STF] Monochrome : public static literal valuetype stdole2win.LoadPictureConstants
+   |   |   |___[STF] VgaColor : public static literal valuetype stdole2win.LoadPictureConstants
+   |   |   |___[FLD] value__ : public specialname rtspecialname int32
+   |   |
+   |   |___[ENU] stdole2win.OLE_TRISTATE
+   |   |   |     .class enum public auto ansi sealed 
+   |   |   |      extends [mscorlib]System.Enum 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 36 36 35 30 34 33 30 41 2D 42 45 30 46   // ..$6650430A-BE0F ...
+   |   |   |___[STF] Checked : public static literal valuetype stdole2win.OLE_TRISTATE
+   |   |   |___[STF] Gray : public static literal valuetype stdole2win.OLE_TRISTATE
+   |   |   |___[STF] Unchecked : public static literal valuetype stdole2win.OLE_TRISTATE
+   |   |   |___[FLD] value__ : public specialname rtspecialname int32
+   |   |
+   |   |___[INT] stdole2win.Picture
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 37 42 46 38 30 39 38 31 2D 42 46 33 32   // ..$7BF80981-BF32 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 00 10 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ComInterfaceType) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = ( 01 00 06 48 61 6E 64 6C 65 00 00 )                // ...Handle.. ...
+   |   |   |___[MET] Render : void(int32,int32,int32,int32,int32,int32,int32,int32,int32,native int)
+   |   |   |___[MET] get_Handle : int32()
+   |   |   |___[MET] get_Height : int32()
+   |   |   |___[MET] get_Type : int16()
+   |   |   |___[MET] get_Width : int32()
+   |   |   |___[MET] get_hPal : int32()
+   |   |   |___[MET] set_hPal : void(int32)
+   |   |   |___[PTY] Handle : int32()
+   |   |   |___[PTY] Height : int32()
+   |   |   |___[PTY] Type : int16()
+   |   |   |___[PTY] Width : int32()
+   |   |   |___[PTY] hPal : int32()
+   |   |
+   |   |___[INT] stdole2win.StdFont
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |      implements stdole2win.Font 
+   |   |   |      implements stdole2win.FontEvents_Event 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.CoClassAttribute::.ctor(class [mscorlib]System.Type) = ( 01 00 17 73 74 64 6F 6C 65 32 77 69 6E 2E 53 74   // ...stdole2win.St ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 42 45 46 36 45 30 30 33 2D 41 38 37 34   // ..$BEF6E003-A874 ...
+   |   |
+   |   |___[CLS] stdole2win.StdFontClass
+   |   |   |     .class public auto ansi import 
+   |   |   |      implements stdole2win.Font 
+   |   |   |      implements stdole2win.StdFont 
+   |   |   |      implements stdole2win.FontEvents_Event 
+   |   |   |      implements stdole2win.IFont 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ClassInterfaceAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ClassInterfaceType) = ( 01 00 00 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ComSourceInterfacesAttribute::.ctor(string) = ( 01 00 17 73 74 64 6F 6C 65 32 77 69 6E 2E 46 6F   // ...stdole2win.Fo ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 42 45 33 35 32 30 33 2D 38 46 39 31   // ..$0BE35203-8F91 ...
+   |   |   |     .custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = ( 01 00 04 4E 61 6D 65 00 00 )                      // ...Name.. ...
+   |   |   |___[MET] .ctor : void()
+   |   |   |___[MET] AddRefHfont : void(int32)
+   |   |   |___[MET] Clone : void(class stdole2win.IFont&)
+   |   |   |___[MET] IFont_get_Bold : bool()
+   |   |   |___[MET] IFont_get_Charset : int16()
+   |   |   |___[MET] IFont_get_Italic : bool()
+   |   |   |___[MET] IFont_get_Name : string()
+   |   |   |___[MET] IFont_get_Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[MET] IFont_get_Strikethrough : bool()
+   |   |   |___[MET] IFont_get_Underline : bool()
+   |   |   |___[MET] IFont_get_Weight : int16()
+   |   |   |___[MET] IFont_set_Bold : void(bool)
+   |   |   |___[MET] IFont_set_Charset : void(int16)
+   |   |   |___[MET] IFont_set_Italic : void(bool)
+   |   |   |___[MET] IFont_set_Name : void(string)
+   |   |   |___[MET] IFont_set_Size : void(valuetype [mscorlib]System.Decimal)
+   |   |   |___[MET] IFont_set_Strikethrough : void(bool)
+   |   |   |___[MET] IFont_set_Underline : void(bool)
+   |   |   |___[MET] IFont_set_Weight : void(int16)
+   |   |   |___[MET] IsEqual : void(class stdole2win.IFont)
+   |   |   |___[MET] ReleaseHfont : void(int32)
+   |   |   |___[MET] SetRatio : void(int32,int32)
+   |   |   |___[MET] add_FontChanged : void(class stdole2win.FontEvents_FontChangedEventHandler)
+   |   |   |___[MET] get_Bold : bool()
+   |   |   |___[MET] get_Charset : int16()
+   |   |   |___[MET] get_Italic : bool()
+   |   |   |___[MET] get_Name : string()
+   |   |   |___[MET] get_Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[MET] get_Strikethrough : bool()
+   |   |   |___[MET] get_Underline : bool()
+   |   |   |___[MET] get_Weight : int16()
+   |   |   |___[MET] get_hFont : int32()
+   |   |   |___[MET] remove_FontChanged : void(class stdole2win.FontEvents_FontChangedEventHandler)
+   |   |   |___[MET] set_Bold : void(bool)
+   |   |   |___[MET] set_Charset : void(int16)
+   |   |   |___[MET] set_Italic : void(bool)
+   |   |   |___[MET] set_Name : void(string)
+   |   |   |___[MET] set_Size : void(valuetype [mscorlib]System.Decimal)
+   |   |   |___[MET] set_Strikethrough : void(bool)
+   |   |   |___[MET] set_Underline : void(bool)
+   |   |   |___[MET] set_Weight : void(int16)
+   |   |   |___[EVT] FontChanged : stdole2win.FontEvents_FontChangedEventHandler
+   |   |   |___[PTY] Bold : bool()
+   |   |   |___[PTY] Charset : int16()
+   |   |   |___[PTY] IFont_Bold : bool()
+   |   |   |___[PTY] IFont_Charset : int16()
+   |   |   |___[PTY] IFont_Italic : bool()
+   |   |   |___[PTY] IFont_Name : string()
+   |   |   |___[PTY] IFont_Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[PTY] IFont_Strikethrough : bool()
+   |   |   |___[PTY] IFont_Underline : bool()
+   |   |   |___[PTY] IFont_Weight : int16()
+   |   |   |___[PTY] Italic : bool()
+   |   |   |___[PTY] Name : string()
+   |   |   |___[PTY] Size : valuetype [mscorlib]System.Decimal()
+   |   |   |___[PTY] Strikethrough : bool()
+   |   |   |___[PTY] Underline : bool()
+   |   |   |___[PTY] Weight : int16()
+   |   |   |___[PTY] hFont : int32()
+   |   |
+   |   |___[CLS] stdole2win.StdFunctions
+   |   |   |     .class public abstract auto ansi sealed 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 39 31 32 30 39 41 43 30 2D 36 30 46 36   // ..$91209AC0-60F6 ...
+   |   |
+   |   |___[INT] stdole2win.StdPicture
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |      implements stdole2win.Picture 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.CoClassAttribute::.ctor(class [mscorlib]System.Type) = ( 01 00 1A 73 74 64 6F 6C 65 32 77 69 6E 2E 53 74   // ...stdole2win.St ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 37 42 46 38 30 39 38 31 2D 42 46 33 32   // ..$7BF80981-BF32 ...
+   |   |
+   |   |___[CLS] stdole2win.StdPictureClass
+   |   |   |     .class public auto ansi import 
+   |   |   |      implements stdole2win.Picture 
+   |   |   |      implements stdole2win.StdPicture 
+   |   |   |      implements stdole2win.IPicture 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 42 45 33 35 32 30 34 2D 38 46 39 31   // ..$0BE35204-8F91 ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ClassInterfaceAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ClassInterfaceType) = ( 01 00 00 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = ( 01 00 06 48 61 6E 64 6C 65 00 00 )                // ...Handle.. ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |___[MET] .ctor : void()
+   |   |   |___[MET] IPicture_Render : void(int32,int32,int32,int32,int32,int32,int32,int32,int32,native int)
+   |   |   |___[MET] IPicture_get_Handle : int32()
+   |   |   |___[MET] IPicture_get_Height : int32()
+   |   |   |___[MET] IPicture_get_Type : int16()
+   |   |   |___[MET] IPicture_get_Width : int32()
+   |   |   |___[MET] IPicture_get_hPal : int32()
+   |   |   |___[MET] IPicture_set_hPal : void(int32)
+   |   |   |___[MET] PictureChanged : void()
+   |   |   |___[MET] Render : void(int32,int32,int32,int32,int32,int32,int32,int32,int32,native int)
+   |   |   |___[MET] SaveAsFile : void(native int,bool,int32&)
+   |   |   |___[MET] SelectPicture : void(int32,int32&,int32&)
+   |   |   |___[MET] SetHdc : void(int32)
+   |   |   |___[MET] get_Attributes : int32()
+   |   |   |___[MET] get_CurDC : int32()
+   |   |   |___[MET] get_Handle : int32()
+   |   |   |___[MET] get_Height : int32()
+   |   |   |___[MET] get_KeepOriginalFormat : bool()
+   |   |   |___[MET] get_Type : int16()
+   |   |   |___[MET] get_Width : int32()
+   |   |   |___[MET] get_hPal : int32()
+   |   |   |___[MET] set_KeepOriginalFormat : void(bool)
+   |   |   |___[MET] set_hPal : void(int32)
+   |   |   |___[PTY] Attributes : int32()
+   |   |   |___[PTY] CurDC : int32()
+   |   |   |___[PTY] Handle : int32()
+   |   |   |___[PTY] Height : int32()
+   |   |   |___[PTY] IPicture_Handle : int32()
+   |   |   |___[PTY] IPicture_Height : int32()
+   |   |   |___[PTY] IPicture_Type : int16()
+   |   |   |___[PTY] IPicture_Width : int32()
+   |   |   |___[PTY] IPicture_hPal : int32()
+   |   |   |___[PTY] KeepOriginalFormat : bool()
+   |   |   |___[PTY] Type : int16()
+   |   |   |___[PTY] Width : int32()
+   |   |   |___[PTY] hPal : int32()
+   |   |
+   |
+
